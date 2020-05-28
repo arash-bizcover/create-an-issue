@@ -33,7 +33,7 @@ Toolkit.run(async tools => {
 
   // Grab the front matter as JSON
   const { attributes, body } = fm(file)
-  tools.log(`Front matter for ${template} is`, attributes)
+  tools.log(`Front matter for template is`, attributes)
 
   const templated = {
     body: env.renderString(body, templateVariables),
