@@ -12,5 +12,6 @@ LABEL "maintainer"="Jason Etcovitch <jasonetco@github.com>"
 COPY package*.json ./
 RUN npm ci
 COPY . .
+COPY issue-template.md /tmp/
 
 ENTRYPOINT ["node", "/index.js"]
