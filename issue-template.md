@@ -11,10 +11,10 @@ This issue is generated to be able to deploy release **{{ payload.release.tag_na
 
 To deploy just attach one of the below labels to this issue:   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *labels are at right panel there 👉*
 
-DEPLOY-TO-DEV
-DEPLOY-TO-SIT
-DEPLOY-TO-UAT
-DEPLOY-TO-PRODUCTION
+DEPLOY-TO-DEV </br>
+DEPLOY-TO-SIT </br>
+DEPLOY-TO-UAT </br>
+DEPLOY-TO-PRODUCTION </br>
 
 
 
