@@ -5,7 +5,7 @@ labels: Deployment-Ready
 
 ### Info
 
-This issue is generated to be able to deploy release **{{ payload.release.tag_name }}** into environments.
+This issue is generated to enable deployment of release **{{ payload.release.tag_name }}** into environments.
 
 ### Deploy 🚀 
 
