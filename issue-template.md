@@ -1,5 +1,5 @@
 ---
-title: Deployment-Ready-{{ payload.release.tag_name }}
+title: Deployment-{{ payload.release.tag_name }}
 labels: Deployment-Ready
 ---
 
