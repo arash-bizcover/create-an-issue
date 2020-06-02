@@ -20,5 +20,5 @@ To deploy just attach a `DEPLOY-TO-` label to this issue, from the list below: &
 ![#ff4500](https://via.placeholder.com/15/ff4500/000000?text=+) `DEPLOY-TO-PRODUCTION`
 
 
-*If this is the first time deploying for this project and labels don't exist, just create them with exact names above*</br>
-*issue created automatically by request of user {{ payload.sender.login }}.* 
+*ℹ If this is the first time deploying for this project and labels don't exist, just create them with exact names above*</br>
+*🤖 This issue created automatically by request of user {{ payload.sender.login }}.* 
