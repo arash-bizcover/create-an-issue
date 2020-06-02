@@ -9,7 +9,7 @@ This issue is generated to be able to deploy release **{{ payload.release.tag_na
 
 ### Deploy 🚀 
 
-To deploy just attach a `DEPLOY-TO-` label from below list, to this issue: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *labels are at right panel there 👉*
+To deploy just attach a `DEPLOY-TO-` label from below list, to this issue: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *"labels are at right panel there 👉"*
 
 ![#dafea2](https://via.placeholder.com/15/dafea2/000000?text=+) `DEPLOY-TO-DEV`
 
