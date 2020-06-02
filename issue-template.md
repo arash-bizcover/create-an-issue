@@ -22,5 +22,5 @@ To deploy just attach a `DEPLOY-TO-` label from below list, to this issue: &nbsp
 
 *ℹ If this is the first time deploying for this project and labels don't exist, just create them with exact names above*
 
-*🤖 This issue created automatically by request of user {{ payload.sender.login }}. <br>
-Facing any problem contact DevOps Team ☎* 
+*🤖 This issue created automatically by request of user {{ payload.sender.login }}.<br>
+*☎ Facing any problem contact DevOps Team* 
