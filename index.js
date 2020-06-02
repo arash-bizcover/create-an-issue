@@ -13,6 +13,7 @@ function listToArray (list) {
 Toolkit.run(async tools => {
 //   const template = tools.inputs.filename || 'issue-template.md'
   const assignees = tools.inputs.assignees
+  const labels = tools.inputs.labels
   const env = nunjucks.configure({ autoescape: false })
   env.addFilter('date', dateFilter)
 
@@ -49,7 +50,8 @@ Toolkit.run(async tools => {
       ...tools.context.repo,
       ...templated,
       assignees: assignees ? listToArray(assignees) : listToArray(attributes.assignees),
-      labels: listToArray(attributes.labels),
+      labels: labels ? listToArray(labels) : listToArray(attributes.labels),
+      // labels: listToArray(attributes.labels),
       milestone: tools.inputs.milestone || attributes.milestone
     })
 
