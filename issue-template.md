@@ -9,18 +9,16 @@ This issue is generated to be able to deploy release **{{ payload.release.tag_na
 
 ### Deploy 🚀 
 
-To deploy just attach one of the below labels to this issue:   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *labels are at right panel there 👉*
+To deploy just attach a `DEPLOY-TO-` label to this issue, from the list below: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  *labels are at right panel there 👉*
 
-<span style="color:green;">DEPLOY-TO-DEV</span>
-<div class="text-white bg-blue mb-2">
-  DEPLOY-TO-SIT
-</div>
-<div class="bg-yellow mb-2">
-  DEPLOY-TO-UAT
-</div>
-<div class="text-white bg-red mb-2">
-  DEPLOY-TO-PRODUCTION
-</div>
+![#dafea2](https://via.placeholder.com/15/dafea2/000000?text=+) `DEPLOY-TO-DEV`
+
+![#96ceff](https://via.placeholder.com/15/96ceff/000000?text=+) `DEPLOY-TO-SIT`
+
+![#ffa435](https://via.placeholder.com/15/ffa435/000000?text=+) `DEPLOY-TO-UAT`
+
+![#ff4500](https://via.placeholder.com/15/ff4500/000000?text=+) `DEPLOY-TO-PRODUCTION`
 
 
-*issue created automatically by request of {{ payload.sender.login }}.*
+*If this is the first time deploying for this project and labels don't exist, just create them with exact names above*
+*issue created automatically by request of user {{ payload.sender.login }}.* 
