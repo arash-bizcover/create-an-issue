@@ -9,7 +9,7 @@ This issue is generated to enable deployment of release **{{ payload.release.tag
 
 ### Deploy 🚀 
 
-To deploy just attach a `DEPLOY-TO-` to this issue, below list are valid labels: 
+To deploy just attach a `DEPLOY-TO-` label to this issue, below list are valid labels: 
 
 ![#dafea2](https://via.placeholder.com/15/dafea2/000000?text=+) DEPLOY-TO-DEV-AU </br>
 ![#96ceff](https://via.placeholder.com/15/96ceff/000000?text=+) DEPLOY-TO-SIT-AU </br>
