@@ -9,7 +9,7 @@ This issue is generated to enable deployment of release **{{ payload.release.tag
 
 ### Deploy 🚀 
 
-To deploy just attach a `DEPLOY-TO-` label from below list, to this issue: &nbsp;&nbsp;&nbsp;&nbsp; *`"labels at right panel 👉"`*
+To deploy just attach a `DEPLOY-TO-` label from below list, to this issue: 
 
 ![#dafea2](https://via.placeholder.com/15/dafea2/000000?text=+) DEPLOY-TO-DEV
 
@@ -20,7 +20,7 @@ To deploy just attach a `DEPLOY-TO-` label from below list, to this issue: &nbsp
 ![#ff4500](https://via.placeholder.com/15/ff4500/000000?text=+) DEPLOY-TO-PRODUCTION
 
 
-*ℹ If this is the first time deploying for this project and labels don't exist, just create them with exact names above*
+*ℹ If this is the first time deploying for this project and labels don't exist, just create them with exact names as above. labels are at the right panel, there 👉*
 
 *🤖 This issue created automatically by request of user {{ payload.sender.login }}.*<br>
 *☎ Facing any problem contact DevOps Team* 
